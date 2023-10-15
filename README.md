@@ -4,10 +4,30 @@ The XrAI project tackles the challenge of identifying pneumonic pathologies in c
 ## Key Features and Objectives
 
 ### What XrAI Offers
-- 
+A set of jupyter notebooks that guide the user through the entire process of building a CNN model for pathology detection in chest X-rays. The notebooks are organized in a logical sequence that follows the steps of the process, from data preprocessing to model development and evaluation. The notebooks are designed to be modular and reusable, so that the user can easily adopt the same rationale and/or code for their own needs. 
 
 ### Project Highlights
-- 
+
+- **Dataset building**: Starting from a monolitic dataset of chest x-ray images training, validation and test subdatasets are generated using the right precautions, i.e.:
+    - using a stratified sampling to ensure that the distribution of the classes is preserved,
+    - ensuring that images belonging to the same patients are not present in different subdatasets, to avoid data leakage. 
+
+
+- **Data Preprocessing**: The notebooks provide a range of solutions to tackle the challenges associated with preprocessing noisy data. These solutions encompass techniques for managing images that exhibit significant variability in various aspects, such as:
+    - Image content, including variations in the subject's body structure, condition, and the presence of medical devices in the body area.
+    - Grayscale references, encompassing both traditional and inverted contrast as well as variations in exposure.
+    - Image quality, which can vary from clear to noisy, with different types of noise, shifts, cropping, and the presence of blanking patches.
+
+Specifically, we developed a two-step processing framework. The first step involves traditional color normalization and resizing, while the second step is dedicated to enhancing image quality and reducing noise. Of these two modules, the latter one is particularly noteworthy in terms of innovation. It features an automatic noise detector and offers multiple options for implementing a denoising module, including a traditional denoising filter, a Fully Convolutional Denoising Network (FCDN), and a Denoising Autoencoder (DAE).
+
+- **Model Development**: 
+
+
+
+
+
+
+
 
 ### Getting Started
 
