@@ -1,0 +1,8 @@
+pandas~=2.1.1
+matplotlib~=3.8.0
+numpy~=1.26.0
+scikit-learn
+scikit-image
+cv2
+tensorflow
+seaborn
