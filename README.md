@@ -1,5 +1,11 @@
 # XrAI - Pathology Detection in Chest X-rays
-The XrAI project tackles the challenge of identifying pneumonic pathologies in chest X-ray images using Convolutional Neural Networks (CNNs). It primarily focus on detecting pneumonia and tuberculosis, but the approach can seamlessly extend to other pathologies that manifest through radiologic analysis. This repository offers a set of solutions for addressing the complexities inherent in data preprocessing, model development, and result analysis and interpretation for  such models. The result of our efforts is a powerful and accurate tool that is able to discern when is possible to make informed predictions and when, on the other hand, the input data isn't informative enough for clinical assessments. 
+The XrAI project tackles the challenge of identifying pneumonic pathologies in chest X-ray images using Convolutional Neural Networks (CNNs). It primarily focus on detecting pneumonia and tuberculosis, but the approach can seamlessly extend to other pathologies that manifest through radiologic analysis. This repository offers a set of solutions for addressing the complexities inherent in data preprocessing, model development, and result analysis and interpretation for  such models. The result of our efforts is a powerful and accurate tool that is able to discern when is possible to make informed predictions and when, on the other hand, the input data isn't informative enough for clinical assessments.
+
+### Graphical Abstract
+
+<p align="center">
+  <img src="media/graphical_abstract.jpg" alt="Graphical Abstract" width="80%">
+</p>
 
 ## Key Features and Objectives
 
