@@ -6,7 +6,7 @@ The XrAI project tackles the challenge of identifying pneumonic pathologies in c
 ### What XrAI Offers
 A set of jupyter notebooks that guide the user through the entire process of building a CNN model for pathology detection in chest X-rays. The notebooks are organized in a logical sequence that follows the steps of the process, from data preprocessing to model development and evaluation. The notebooks are designed to be modular and reusable, so that the user can easily adopt the same rationale and/or code for their own needs. 
 
-In addition, a [report](C:\Users\chiar\OneDrive\Desktop\XrAI\XrAI_scientific_report.pdf) that describes the rationale behind the main choises and results is available in this repository. There you can find a detailed description of the project, including the challenges we faced and the solutions we adopted to overcome them. We would be happy to provide any additional information or clarification, as well as the dataset, upon request.
+In addition, a [report](XrAI_scientific_report.pdf) that describes the rationale behind the main choises and results is available in this repository. There you can find a detailed description of the project, including the challenges we faced and the solutions we adopted to overcome them. We would be happy to provide any additional information or clarification, as well as the dataset, upon request.
 
 ### Project Highlights
 
@@ -30,7 +30,7 @@ Specifically, we developed a two-step processing framework. The first step invol
 
 - **Model Explainability**: The notebooks also include a section dedicated to model explainability. This is done through the use of kernel visualization, Local Interpretable Model-Agnostic Explanations (LIME) technique, the Simple Activation Visualization (SAV) and the Gradient-weighted Class Activation Mapping (Grad-CAM). These techniques allow gain valueable  insights to understand the rationale behind the model's prediction and result to be powerful tools that can help identifying potential biases.
 
-Read the [report](C:\Users\chiar\OneDrive\Desktop\XrAI\XrAI_scientific_report.pdf) to learn more about the techniques, the results and the insights we gained from this project.
+Read the [report](XrAI_scientific_report.pdf) to learn more about the techniques, the results and the insights we gained from this project.
 
 
 
